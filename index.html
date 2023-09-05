@@ -10,7 +10,43 @@
 </head>
 
 <body>
-
+  <h1>Mad Libs</h1>
+  <form id="form">
+    <div id="inputSection">
+        <p>Type your words in the text boxes, click submit, then see them in the MadLib below:</p>
+        <label id="inputLabel">Type an adjective here:  <input class="userInput" id="input1" type="text" placeholder="Adjective" /></label>
+        <label id="inputLabel">Type an adjective here:  <input class="userInput" id="input2" type="text" placeholder="Adjective" /></label>
+        <label id="inputLabel">Type a noun here:  <input class="userInput" id="input3" type="text" placeholder="Noun" /></label>
+        <label id="inputLabel">Type a noun here:  <input class="userInput" id="input4" type="text" placeholder="Noun" /></label>
+        <label id="inputLabel">Type a plural noun here:  <input class="userInput" id="input5" type="text" placeholder="Plural Noun" /></label>
+        <label id="inputLabel">Type a game here:  <input class="userInput" id="input6" type="text" placeholder="Game" /></label>
+        <label id="inputLabel">Type a plural noun here:  <input class="userInput" id="input7" type="text" placeholder="Plural Noun" /></label>
+        <label id="inputLabel">Type a verb ending in -ing here:  <input class="userInput" id="input8" type="text" placeholder="Verb" /></label>
+        <label id="inputLabel">Type a verb ending in -ing here:  <input class="userInput" id="input9" type="text" placeholder="Verb" /></label>
+        <button id="submitButton" type="submit">Submit</button>
+    </div>
+    <div id="madlibSection">
+        <p>A vacation is when you take a trip to some
+        <span class="replacement" id="replace1">________</span>
+        place with your
+        <span class="replacement" id="replace2">________</span>
+        family. Usually you go to some place that is near a/an
+        <span class="replacement" id="replace3">________</span>
+        or up on a/an
+        <span class="replacement" id="replace4">________</span>
+        . A good vacation place is one where you can ride
+        <span class="replacement" id="replace5">________</span>
+        or play
+        <span class="replacement" id="replace6">________</span>
+        or go hunting for
+        <span class="replacement" id="replace7">________</span>
+        . I like to spend my time
+        <span class="replacement" id="replace8">________</span>
+        or
+        <span class="replacement" id="replace9">________</span>
+        .</p>
+    </div>
+  </form>
 </body>
 <script src="js/index.js"></script>
 </html>
